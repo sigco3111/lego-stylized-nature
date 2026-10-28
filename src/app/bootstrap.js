@@ -24,7 +24,7 @@ export async function bootstrap(canvas) {
     const uiRoot = document.getElementById('explorer-ui')
     if (uiRoot) {
       uiRoot.className = 'startup-error'
-      uiRoot.innerHTML = '<div class="surface error-card" role="alert"><span class="eyebrow">BRICKLAND EXPLORER</span><h1>旷野还没准备好</h1><p>场景加载失败，请检查浏览器是否支持 WebGPU，然后重试。</p><button type="button" class="primary-button">重新加载</button></div>'
+      uiRoot.innerHTML = '<div class="surface error-card" role="alert"><span class="eyebrow">BRICKLAND EXPLORER</span><h1>들녘이 아직 준비되지 않았습니다</h1><p>장면을 불러오지 못했습니다. 브라우저가 WebGPU를 지원하는지 확인한 뒤 다시 시도하세요.</p><button type="button" class="primary-button">다시 불러오기</button></div>'
       uiRoot.querySelector('button').addEventListener('click', () => window.location.reload())
     }
   }
