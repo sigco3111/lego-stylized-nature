@@ -1,4 +1,5 @@
 export default {
+  base: '/lego-stylized-nature/', // GitHub Pages project path
   root: 'src/', // Sources files (typically where index.html is)
   publicDir: '../public/', // Path from "root" to static assets (files that are served as they are)
   server:
@@ -9,7 +10,7 @@ export default {
     {
       outDir: '../dist', // Output in the dist/ folder
       emptyOutDir: true, // Empty the folder first
-      sourcemap: true, // Add sourcemap
+      sourcemap: false, // Add sourcemap
     },
   // resolve:
   // {
