@@ -1,5 +1,5 @@
 export function createLightPanel(debug, environment) {
-  const folder = debug.addFolder({ title: '灯光💡', expanded: false })
+  const folder = debug.addFolder({ title: '조명💡', expanded: false })
   if (!folder) {
     return
   }
