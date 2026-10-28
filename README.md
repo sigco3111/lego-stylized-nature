@@ -3,16 +3,22 @@
 끝나지 않는 작은 모험. 블록으로 만든 작은 비행기를 몰아 절차 생성으로 만들어지는
 숲, 강, 모래 언덕, 설경을 탐험하는 브라우저 게임입니다.
 
+[![숲과 강둑 위를 나는 블록 비행기 (원작 제공 이미지)](docs/readmeImg/optimized/hero.webp)](https://sigco3111.github.io/lego-stylized-nature/)
+
 **[지금 플레이하기 (GitHub Pages)](https://sigco3111.github.io/lego-stylized-nature/)** ·
 [원본 저장소 (hexianWeb/lego-stylized-nature)](https://github.com/hexianWeb/lego-stylized-nature) ·
 [원작 라이브 (Vercel)](https://lego-stylized-nature.vercel.app/)
 
 > 이 저장소는 원작을 한국어화한 포크입니다. 원본 README(중/영)는
 > [README.en.md](README.en.md)에 그대로 보존되어 있습니다.
+>
+> 이 README에 실린 게임 화면 이미지와 비행 영상은 **원작자(hexianWeb)가 제작해 원본
+> README에 게시한 자료**입니다. 한글화 배포본을 직접 캡처한 화면이 아닙니다.
 
 ## 목차
 
 - [게임 소개](#게임-소개)
+- [월드 갤러리 (원작 제공 이미지)](#월드-갤러리-원작-제공-이미지)
 - [플레이 방법](#플레이-방법)
 - [한국어화 내용](#한국어화-내용)
 - [검증 상태](#검증-상태)
@@ -27,6 +33,55 @@
 - 7개 바이옴: 푸른 숲, 가을 숲, 황금 사구, 용암 계곡, 눈 덮인 숲, 꽃 들판, 물가 습지.
 - 랜드마크(사막 태양의 문), 지형 미니맵, 속도·좌표 HUD, 바이옴 안내를 제공합니다.
 - 로딩 후 구름을 뚫고 세계가 드러나는 연출과 바이옴별 배경 음악이 있습니다.
+
+## 월드 갤러리 (원작 제공 이미지)
+
+나무 끝을 스치듯 날고, 강물을 따라 방향을 틀고, 호기심이 이끄는 곳이 다음 목적지입니다.
+
+[![비행 미리보기: 블록 숲 사이를 선회하는 비행기 (원작 제공 영상)](docs/readmeImg/optimized/flight-preview.gif)](docs/readmeImg/optimized/flight-demo.mp4)
+
+*5초 반복 미리보기입니다. 이미지를 누르면 원작이 제작한 전체 7초 비행 영상을 볼 수 있습니다.*
+
+푸른 강변에서 눈 덮인 언덕까지, 풍경마다 저마다의 색이 있습니다.
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/readmeImg/optimized/landscape.webp" alt="푸른 숲 속 비행기와 꽃, 강 (원작 제공 이미지)" width="100%">
+      <br><strong>푸른 숲</strong>
+      <br>나무 그늘과 작은 꽃, 겹겹이 쌓인 강변 지형.
+    </td>
+    <td width="50%">
+      <img src="docs/readmeImg/optimized/biome1.webp" alt="주황빛 가을 숲과 푸른 강 (원작 제공 이미지)" width="100%">
+      <br><strong>가을 숲</strong>
+      <br>주황빛 수관 사이로 푸른 강이 따뜻한 골짜기를 가로지릅니다.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/readmeImg/optimized/biome2.webp" alt="물가 습지의 섬과 수생 식물 (원작 제공 이미지)" width="100%">
+      <br><strong>물가 습지</strong>
+      <br>드문드문 놓인 작은 섬과 수생 식물이 넓은 수면을 장식합니다.
+    </td>
+    <td width="50%">
+      <img src="docs/readmeImg/optimized/biome3.webp" alt="황금 사구 사이의 거대한 블록 아치 (원작 제공 이미지)" width="100%">
+      <br><strong>황금 사구</strong>
+      <br>물결치는 모래 언덕 사이에서 거대한 아치가 발견되기를 기다립니다.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/readmeImg/optimized/biome4.webp" alt="눈 덮인 숲과 하얀 언덕, 푸른 호수 (원작 제공 이미지)" width="100%">
+      <br><strong>눈 덮인 숲</strong>
+      <br>하얀 언덕과 침엽수가 새파란 호수를 감싸고 있습니다.
+    </td>
+    <td width="50%">
+      <img src="docs/readmeImg/optimized/flight.webp" alt="가을 숲 위를 선회하며 날개 끝 기류를 남기는 비행기 (원작 제공 이미지)" width="100%">
+      <br><strong>선회하는 순간</strong>
+      <br>날개를 기울여 숲 위를 돌 때 날개 끝에 비행 궤적이 이어집니다.
+    </td>
+  </tr>
+</table>
 
 ## 플레이 방법
 
