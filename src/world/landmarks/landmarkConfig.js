@@ -1,7 +1,7 @@
 /** Asset dimensions are measured from the exported Blender GLB (Y up). */
 export const SUN_GATE = Object.freeze({
   id: 'desert-sun-gate',
-  name: '沙漠日轮门',
+  name: '사막 태양의 문',
   resource: 'desertSunGateModel',
   dimensions: Object.freeze({ width: 12.8, height: 11.47, depth: 7.85 }),
 })
